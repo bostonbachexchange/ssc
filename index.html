@@ -7,9 +7,14 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <!-- Utility bar -->
-  <div class="util" aria-label="Utility">
-    <div class="wrap">
+<!-- Utility bar (now with logo on the left) -->
+<div class="util" aria-label="Utility">
+  <div class="wrap">
+    <a class="logo" href="#">
+      <img src="assets/logo.png" alt="South Shore Conservatory logo" class="logo-img" />
+    </a>
+
+    <div class="util-links">
       <a href="#">Enroll</a>
       <a href="#">Contact Us</a>
       <a href="#">Donate</a>
@@ -17,23 +22,22 @@
       <a class="btn" href="#">Login</a>
     </div>
   </div>
+</div>
 
-  <!-- Header -->
-  <header>
-    <div class="nav" role="navigation" aria-label="Main">
-      <a class="logo" href="#">
-        <img src="assets/logo.png" alt="South Shore Conservatory logo" class="logo-img" />
-      </a>
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Programs</a>
-        <a href="#">For Students</a>
-        <a href="#">Our Team</a>
-        <a href="#">Events</a>
-        <a href="#">Ways to Give</a>
-      </nav>
-    </div>
-  </header>
+<!-- Header (nav row only) -->
+<header>
+  <div class="nav" role="navigation" aria-label="Main">
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Programs</a>
+      <a href="#">For Students</a>
+      <a href="#">Our Team</a>
+      <a href="#">Events</a>
+      <a href="#">Ways to Give</a>
+    </nav>
+  </div>
+</header>
+
 
   <!-- Hero -->
   <section class="hero" aria-label="Hero">
@@ -46,7 +50,7 @@
     </div>
     <div class="hero-content">
       <div class="hero-inner">
-        <div class="eyebrow">Welcome to SSC</div>
+        <!-- <div class="eyebrow">Welcome to SSC</div> -->
         <h1>Where Potential Meets Possibility</h1>
         <p>Our vibrant community enriches the lives of students of all ages and abilities through the joy of music and dance.</p>
       </div>
